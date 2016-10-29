@@ -1,5 +1,5 @@
 {
-  "name": "microjs-plugins-rest-tree",
+  "name": "@microjs/microjs-plugins-rest-tree",
   "version": "0.1.0",
   "description": "Плагин Microjs для запросов к древовидным сущностям",
   "main": "index.js",
