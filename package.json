@@ -23,8 +23,8 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "microjs": "git+ssh://git@gitlab.com:microjs/microjs.git",
-    "microjs-plugins-dal": "git+ssh://git@gitlab.com:microjs/microjs-plugins-dal.git"
+    "microjs": "gitlab:microjs/microjs",
+    "microjs-plugins-dal": "gitlab:microjs/microjs-plugins-dal"
   },
   "devDependencies": {
     "babel-eslint": "^7.0.0",
