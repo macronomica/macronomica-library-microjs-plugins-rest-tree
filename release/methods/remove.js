@@ -17,7 +17,7 @@ exports.default = function (micro, actions, schema) {
       criteria.id = id;
     }
 
-    return actions.tree.delete(schema, criteria, { fields: fields });
+    return actions.tree.remove(schema, criteria, { fields: fields });
   };
 };
 //# sourceMappingURL=remove.js.map

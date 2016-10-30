@@ -3,5 +3,5 @@ export default (micro, actions, schema) => ({ cmd, id, fields, criteria = {} } =
     criteria.id = id;
   }
   
-  return actions.tree.delete(schema, criteria, { fields });
+  return actions.tree.remove(schema, criteria, { fields });
 };
