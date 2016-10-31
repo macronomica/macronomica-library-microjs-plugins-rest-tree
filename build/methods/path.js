@@ -9,17 +9,14 @@ exports.default = function (micro, actions, schema) {
     var _ref = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
         cmd = _ref.cmd,
         id = _ref.id,
-        fields = _ref.fields,
         _ref$criteria = _ref.criteria,
-        criteria = _ref$criteria === undefined ? {} : _ref$criteria,
-        _ref$params = _ref.params,
-        params = _ref$params === undefined ? {} : _ref$params;
+        criteria = _ref$criteria === undefined ? {} : _ref$criteria;
 
     if (!('id' in criteria) && !!id) {
       criteria.id = id;
     }
 
-    return actions.tree.update(schema, criteria, params, { fields: fields });
+    return actions.tree.find.path(schema, criteria);
   };
 };
-//# sourceMappingURL=update.js.map
+//# sourceMappingURL=path.js.map
